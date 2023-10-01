@@ -1,4 +1,4 @@
-import React, {MouseEvent} from 'react';
+import {MouseEvent} from 'react';
 import {gsap} from "gsap";
 import SelectorSvg, {localSVG} from '..//..//helpers/SelectorSvg';
 import s from './MainScreen.module.scss'

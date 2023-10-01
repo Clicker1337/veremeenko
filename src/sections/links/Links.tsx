@@ -1,4 +1,3 @@
-import React from 'react'
 import s from './Links.module.scss'
 import Title from '../../components/title/Title'
 import SelectorSvg, {localSVG} from '../../helpers/SelectorSvg'

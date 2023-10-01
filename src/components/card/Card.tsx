@@ -1,4 +1,3 @@
-import React from 'react'
 import s from './Card.module.scss'
 import SelectorSvg, {localSVG} from '../../helpers/SelectorSvg'
 

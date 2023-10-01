@@ -1,4 +1,3 @@
-import React from 'react'
 import s from './Portfolio.module.scss'
 import Title from '../../components/title/Title'
 import Card from '../../components/card/Card'

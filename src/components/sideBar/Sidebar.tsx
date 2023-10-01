@@ -1,4 +1,3 @@
-import React from 'react'
 import s from './Sidebar.module.scss'
 import {Link} from 'react-scroll'
 

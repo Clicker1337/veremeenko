@@ -1,5 +1,3 @@
-import React from 'react';
-
 import s from './App.module.scss';
 
 import MainScreen from './sections/mainScreen/MainScreen';
@@ -15,9 +13,9 @@ function App() {
             <div className={s.container}>
                 <div className={s.App}>
                     <MainScreen />
-                    {/* <AboutMe />
+                    <AboutMe />
                     <Portfolio />
-                    <Links /> */}
+                    <Links />
                 </div>
                     <Sidebar />
                 <Cursor />

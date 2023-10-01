@@ -1,4 +1,3 @@
-import React from 'react'
 import s from './AboutMe.module.scss'
 import photo from '../../assets/images/photo.png'
 import Title from '../../components/title/Title'
