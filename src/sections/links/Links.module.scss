@@ -1,0 +1,49 @@
+.main {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    width: 44.375rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.875rem;
+
+    @media screen and (max-width: 1200px) {
+        width: 29.5rem;
+    }
+}
+
+.links {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    &__link {
+        display: flex;
+        align-items: center;
+        gap: 1.25rem;
+    }
+}
+
+a {
+    display: inline;
+}
+
+p {
+    span{
+        color: #42c58e;
+    }
+}
+
+a:hover {
+    color: #42c58e;
+}

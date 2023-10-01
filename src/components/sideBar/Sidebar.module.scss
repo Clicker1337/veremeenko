@@ -1,0 +1,57 @@
+.main{
+    height: 100vh;
+    width: 6.25rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    position: sticky;
+    top: 0;
+
+    @media screen and (min-width: 1201px) {
+        right: 0%;
+        margin-right: 3.2rem;
+    }
+    @media screen and (max-width: 1200px) and (min-width: 745px) {
+        right: 0%;
+        margin-right: 2rem;
+    }
+    @media screen and (max-width: 744px) {
+        height: 1.125rem;
+        width: 22.375rem;
+        margin-top: 3rem;
+        padding: 0px 1rem 0px 1rem;
+    }
+}
+
+.links_wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 3.125rem;
+
+    @media screen and (max-width: 744px) {
+        flex-direction: row;
+        height: 100%;
+        gap: 0;
+        justify-content: space-between;
+    }
+}
+
+.link {
+    cursor: pointer;
+    text-align: right;
+
+    @media screen and (max-width: 744px) {
+        text-align: center;
+        font-size: 0.875rem;
+    }
+}
+
+.link_active {
+    color: #42c58e;
+    font-weight: 800;
+    text-decoration: none;
+}

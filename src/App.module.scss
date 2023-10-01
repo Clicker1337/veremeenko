@@ -1,0 +1,41 @@
+.container {
+    max-width: 100vw;
+    display: flex;
+
+    @media screen and (max-width: 744px) {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 10rem;
+
+    @media screen and (max-width: 744px) {
+    }
+}
+
+.sidebar {
+    
+    @media screen and (min-width: 1201px) {
+        min-width: 6.25rem;
+        margin-right: 2rem;
+    }
+
+    @media screen and (max-width: 1200px) {
+        min-width: 6.25rem;
+        margin-right: 2rem;
+    }
+    @media screen and (max-width: 744px) {
+        height: 1.125rem;
+        width: 22.375rem;
+        margin-top: 3rem;
+        background-color: white;
+    }
+}

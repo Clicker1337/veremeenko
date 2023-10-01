@@ -1,0 +1,14 @@
+.cursor {
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgba(66, 197, 142, 0.05) 0%,
+        rgba(66, 197, 142, 0) 100%
+    );
+    top: 0%;
+    left: 0%;
+    pointer-events: none;
+}

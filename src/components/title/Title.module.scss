@@ -1,0 +1,23 @@
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.3125rem;
+    align-self: stretch;
+}
+
+.line {
+    background-color: #cfcfcf;
+    width: 100%;
+    height: 1.5px;
+}
+
+h2 {
+    white-space: nowrap;
+    span {
+        color: #42c58e;
+        font-weight: 400;
+        font-size: 1.25rem;
+        margin-right: 0.3125rem;
+    }
+}

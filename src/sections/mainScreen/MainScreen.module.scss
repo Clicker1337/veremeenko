@@ -1,0 +1,45 @@
+.mainScreen {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 2.75rem;
+
+    @media screen and (max-width: 1200px) {
+        gap: 1.5rem;
+    }
+    @media screen and (max-width: 744px) {
+        gap: 1.25rem;
+        flex-direction: column;
+    }
+}
+
+.block_info {
+    width: 36.375rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+
+    @media screen and (max-width: 1200px) {
+        width: 24.8125rem;
+    }
+    @media screen and (max-width: 744px) {
+        align-items: center;
+        text-align: center;
+        width: 22.375rem;
+        padding: 0px 1rem 0px 1rem;
+    }
+}
+
+.text {
+    color: #42C58E;
+
+    @media screen and (max-width: 1200px) {
+        font-size: 0.875rem;
+    }
+}

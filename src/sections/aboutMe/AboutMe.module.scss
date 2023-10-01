@@ -1,0 +1,63 @@
+.AboutMe {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 2.875rem;
+
+    @media screen and (max-width: 1200px) {
+        gap: 1.875rem;
+        padding: 0px 1rem 0px 1rem;
+    }
+}
+
+.main_block {
+    display: flex;
+    width: 29.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.875rem;
+
+    @media screen and (max-width: 1200px) {
+        width: 21.0625rem;
+    }
+}
+
+.image {
+    border-radius: 1.5625rem;
+
+    @media screen and (max-width: 1200px) {
+        width: 9.375rem;
+        height: 9.375rem;
+    }
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+    align-self: stretch;
+}
+
+.tech {
+    display: flex;
+    width: 24.375rem;
+    align-items: flex-start;
+    gap: 1.25rem;
+    color: #42c58e;
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.625rem;
+        width: 100%;
+    }
+}

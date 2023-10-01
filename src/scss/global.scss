@@ -1,0 +1,119 @@
+@import-normalize;
+
+button {
+    font-family: inherit;
+}
+
+@font-face {
+    font-family: 'Wix';
+    src: local('WixMadeforText-Regular'), local('WixMadeforText-Regular'),
+        url('../assets/fonts/WixMadeforText-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Wix';
+    src: local('WixMadeforText-Medium'), local('WixMadeforText-Medium'),
+        url('../assets/fonts/WixMadeforText-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Wix';
+    src: local('WixMadeforText-SemiBold'), local('WixMadeforText-SemiBold'),
+        url('../assets/fonts/WixMadeforText-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Wix';
+    src: local('WixMadeforText-Bold'), local('WixMadeforText-Bold'),
+        url('../assets/fonts/WixMadeforText-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Wix';
+    src: local('WixMadeforText-ExtraBold'), local('WixMadeforText-ExtraBold'),
+        url('../assets/fonts/WixMadeforText-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #0f0f0f;
+    font-family: Wix, BlinkMacSystemFont, sans-serif;
+    color: #cfcfcf;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+    @media screen and (max-width: 1200px) {
+        font-size: 1.5rem;
+    }
+    @media screen and (max-width: 744px) {
+        font-size: 1.25rem;
+    }
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+h3 {
+    color: #cfcfcf;
+    font-family: Wix Madefor Text;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+::selection {
+    background: #42c58e;
+    color: #000000;
+}
+
+p {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+
+    @media screen and (max-width: 1200px) {
+        font-size: 0.875rem;
+    }
+}
+
+a {
+    color: #cfcfcf;
+    text-decoration: none;
+    font-size: 1rem;
+
+    @media screen and (max-width: 1200px) {
+        font-size: 0.875rem;
+    }
+}
