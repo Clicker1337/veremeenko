@@ -1,13 +1,15 @@
 .Portfolio {
     min-height: 100vh;
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 
     @media screen and (max-width: 1200px) {
         max-width: 36.0625rem;
-        padding: 0px 1rem 0px 1rem;
+        //padding: 0px 1rem 0px 1rem;
+    }
+    @media screen and (max-width: 744px) {
+        width: 22.375rem;
     }
 }
 
@@ -25,13 +27,19 @@
     @media screen and (max-width: 1200px) {
         max-width: 34.0625rem;
     }
+    @media screen and (max-width: 744px) {
+        width: 20.625rem;
+    }
 }
 
 .cards_list {
     display: flex;
     width: 44.375rem;
-    align-items: flex-start;
-    align-content: flex-start;
+    align-items: center;
+    align-content: center;
     gap: 1.875rem;
     flex-wrap: wrap;
+    @media screen and (max-width: 744px) {
+        width: 20.625rem;
+    }
 }

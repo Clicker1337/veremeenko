@@ -11,6 +11,10 @@
     @media screen and (max-width: 1200px) {
         width: 34.0625rem;
     }
+    @media screen and (max-width: 744px) {
+        width: 20.625rem;
+        padding: 1.5rem;
+    }
 }
 
 .text {
@@ -21,7 +25,12 @@
 
     p {
         font-size: 0.875rem;
+        @media screen and (max-width: 744px) {
+            display: none;
+        }
     }
+
+    
 }
 
 .icons {

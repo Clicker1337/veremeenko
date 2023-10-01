@@ -37,8 +37,8 @@ const Links = () => {
                         {SelectorSvg(localSVG.VK)}
                         Вконтакте группа
                     </a>
+                    <p>Почта: <span>cl1ck3r@vk.com</span></p>
                 </div>
-                <p>Почта: <span>cl1ck3r@vk.com</span></p>
             </div>
         </section>
     )
