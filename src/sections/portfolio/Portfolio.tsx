@@ -6,17 +6,20 @@ const DataForCard = [
     {
         title: 'ГринАпи тестовое',
         text: "Тестовое задание по работе с GreenApi интерфейсом, где основная задача это отправка и получение сообщений из приложения What'sApp ",
-        techs: ["React", "Mobx", "TypeScript"]
+        techs: ["React", "Mobx", "TypeScript"],
+        github: "https://github.com/Clicker1337/greenApi",
     },
     {
         title: 'Сайт-визитка для себя',
         text: 'Простенький сайт с красивым и минималистичным визуальным стилем, анимациями и общей информации обо мне',
-        techs: ["Vite", "React", "TypeScript"]
+        techs: ["Vite", "React", "TypeScript"],
+        github: "https://github.com/Clicker1337/veremeenko",
     },
     {
         title: 'Информационная система тестирования',
         text: 'Дипломная работа направленная на тестирование студентов при помощи интегралов, автоматически сгенерированных на сервере.',
-        techs: ["React", "Redux", "TypeScript"]
+        techs: ["React", "Redux", "TypeScript"],
+        github: "https://github.com/Clicker1337/SiteMath",
     }
 ]
 
