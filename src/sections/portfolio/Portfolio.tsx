@@ -14,6 +14,7 @@ const DataForCard = [
         text: 'Простенький сайт с красивым и минималистичным визуальным стилем, анимациями и общей информации обо мне',
         techs: ["Vite", "React", "TypeScript"],
         github: "https://github.com/Clicker1337/veremeenko",
+        real_example: 'https://veremeenko-ercy.vercel.app',
     },
     {
         title: 'Информационная система тестирования',
@@ -26,6 +27,7 @@ const DataForCard = [
         text: 'Тестовое задание с применением fsd архитектуры, основная цель работы создание виртуализации, бесконечного скролла и т.д.',
         techs: ["React", "RTK Query", "FSD"],
         github: "https://github.com/Clicker1337/SiteMath",
+        real_example: 'https://posts-fsd-test-work.vercel.app',
     }
 ]
 
