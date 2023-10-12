@@ -20,6 +20,12 @@ const DataForCard = [
         text: 'Дипломная работа направленная на тестирование студентов при помощи интегралов, автоматически сгенерированных на сервере.',
         techs: ["React", "Redux", "TypeScript"],
         github: "https://github.com/Clicker1337/SiteMath",
+    },
+    {
+        title: 'Пикассо',
+        text: 'Тестовое задание с применением fsd архитектуры, основная цель работы создание виртуализации, бесконечного скролла и т.д.',
+        techs: ["React", "RTK Query", "FSD"],
+        github: "https://github.com/Clicker1337/SiteMath",
     }
 ]
 
