@@ -17,10 +17,10 @@ const DataForCard = [
         real_example: 'https://veremeenko-ercy.vercel.app',
     },
     {
-        title: 'Информационная система тестирования',
-        text: 'Дипломная работа направленная на тестирование студентов при помощи интегралов, автоматически сгенерированных на сервере.',
-        techs: ["React", "Redux", "TypeScript"],
-        github: "https://github.com/Clicker1337/SiteMath",
+        title: 'SNP проект на паге',
+        text: 'Заказ, выполненный при помощи препроцессора pug, основной целью было создание проекта при помощи нативных инструментов',
+        techs: ["pug", "scss", "JavaScript"],
+        github: "https://github.com/Clicker1337/SNP",
     },
     {
         title: 'Пикассо',
