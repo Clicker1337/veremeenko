@@ -28,6 +28,13 @@ const DataForCard = [
         techs: ["React", "RTK Query", "FSD"],
         github: "https://github.com/Clicker1337/SiteMath",
         real_example: 'https://posts-fsd-test-work.vercel.app',
+    },
+    {
+        title: 'Рандомайзер цветов',
+        text: 'Простой проект с 5 колонками цветов, каждый из которых можно зафиксировать и скопировать в буфер обмена. Также страницу можно скопировать и цвета не потеряются',
+        techs: ["html", "JavaScript", "css"],
+        github: "https://github.com/Clicker1337/colors",
+        real_example: 'https://colors-rho.vercel.app',
     }
 ]
 
